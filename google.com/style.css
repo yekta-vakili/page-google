@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('GoogleFont/Project/Product\ Sans\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+}
+.head{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:end;
+}
+.head>div{
+ margin-left: 15px;
+ margin-right: 10px;
+ margin-top: 10px;
+}
+.sign input[type=submit]{
+    width: 90px;
+    background-color: #1b73e7;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    border: none;
+}
+.apps a svg{
+   height: 30px;
+   width: 30px;
+}
+.img a , .gmail a{
+ text-decoration: none;
+ color: #807d7d;
+}
+.google{
+    font-family: myfont;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 90px;
+    flex-wrap: wrap;
+    height: 500px;
+}
+.g1 ,.g2{
+    color: #4284f3;
+}
+.o1,.e{
+    color: #e94435;
+}
+.o2{
+    color: #fbbd03;
+}
+.l{
+    color: #33a852;
+}
+.e{
+    transform: rotate(-15deg);
+}
+.search1{
+    position: relative;
+    top: -154px;
+    left: 25.5%;
+}
+.search1 input[type=search]{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #e7e7e7;
+    box-shadow: 5px 5px 5px #dcdcdc;
+}
+.search1 input[type=submit]{
+      border: none;
+      position: relative;
+      top: -9px;
+      left: 14%;
+      width: 130px;
+      height: 36px;
+}
+.footer{
+   
+    height: 50px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+.footer>.ltl{
+    display: flex;
+    flex-direction: row;
+    color: #807d7d;
+}
+.ltl>div{
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.footer>.rtl{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    color: #807d7d;
+}
+.rtl>div{
+    margin-right: 30px;
+    margin-top: -18px;
+}
